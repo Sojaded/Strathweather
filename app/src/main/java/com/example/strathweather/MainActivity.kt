@@ -99,7 +99,7 @@ fun MainInfo(){
                 InfoItem(
                     iconRes = R.drawable.ic_humidity,
                     title = "Humidity",
-                    subtitle = "85%",
+                    subtitle = "90%",
                     modifier = Modifier.weight(1f)
                 )
                 InfoItem(
@@ -111,18 +111,17 @@ fun MainInfo(){
 
             }
             Divider(color = LightGray)
-            //step 20: Adding modifier
             Row(Modifier.padding(16.dp)) {
                 InfoItem(
                     iconRes = R.drawable.ic_sun_half,
                     title = "Sunrise",
-                    subtitle = "7.03 AM%",
+                    subtitle = "6.01 AM%",
                     modifier = Modifier.weight(1f)
                 )
                 InfoItem(
                     iconRes = R.drawable.ic_sun_half,
                     title = "Sunset",
-                    subtitle = "4.28 PM",
+                    subtitle = "5.01 PM",
                     modifier = Modifier.weight(1f)
                 )
             }
